@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.scss'
+import TodoList from './components/TodoList'
 
 const App: React.FC = (): JSX.Element => {
     return (
         <div className="App">
-            <h1>Hello React!</h1>
+            <TodoList />
         </div>
     )
 }
